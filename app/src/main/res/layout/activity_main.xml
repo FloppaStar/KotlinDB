@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentContainerViewMain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="com.example.chinazes.MainFragment"/>
+
+<!--    <LinearLayout-->
+<!--        android:id="@+id/bottomSheetView"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:background="@drawable/bottomsheet_background"-->
+<!--        android:orientation="vertical"-->
+<!--        app:behavior_hideable="false"-->
+<!--        app:behavior_peekHeight="30dp"-->
+<!--        app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">-->
+
+<!--        <com.google.android.material.bottomsheet.BottomSheetDragHandleView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="20dp"/>-->
+
+<!--        <androidx.fragment.app.FragmentContainerView-->
+<!--            android:id="@+id/fragmentContainerView"-->
+<!--            android:name="com.example.chinazes.BottomSheetFragment"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content" />-->
+<!--    </LinearLayout>-->
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
